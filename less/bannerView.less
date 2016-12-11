@@ -1,0 +1,127 @@
+.banner{
+	background: #fff;
+	.banner-top{
+	    position: relative;
+	    width: 100%;
+	    padding-bottom: 33.333%;
+	    background-image: url(images/header1-bg.png);
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    background-size: 100% auto;
+	    span{
+    	    position: absolute;
+		    left: 9rem;
+		    bottom: .5rem;
+		    font-size: 1.6rem;
+		    color: #fff;
+		    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+	    }
+	    img{
+    	    position: absolute;
+		    left: .85rem;
+		    bottom: -3.35rem;
+		    width: 7.5rem;
+		    height: 7.5rem;
+		    background: #fff;
+		    border-radius: 3px;
+	        box-shadow: 0 0 1px 1px rgba(0,0,0,.2);
+	    }
+	}
+	.banner-nav{
+	    padding: 0rem 0 .5rem 8rem;
+	    a{
+	    	display: block;
+    	    float: left;
+		    width: 33.333%;
+		    border-right: 1px solid #ddd;
+		    margin: 1rem 0 .8rem;
+		    text-align: center;
+		    .count{
+	    	    font-size: 1.8rem;
+			    line-height: 1.5rem;
+			    color: #333;
+		    }
+		    .text{
+	    	    font-size: 1.2rem;
+			    color: #999;
+		    }
+		    &:last-of-type{
+		    	border-right: 0px;
+		    }
+	    }
+	}
+}
+.banner-search{
+	background: #DACEEB;
+	padding:.8rem;
+	p{
+		width: 100%;
+		height: 3.5rem;
+	    line-height: 3.5rem;
+	    border-radius: .4rem;
+	    text-align: center;
+	    background: #fff;
+	    color: #999;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+}
+.view-list{
+	li{
+		padding: 1rem .85rem;
+		a{
+			display: block;
+			width: 100%;
+			img{
+			    float: left;
+			    width: 18px;
+			    height: 18px;
+			    margin-right: 5px;
+			}
+			h3{
+			    float: left;
+			    font-size: 1.4rem;
+			    font-weight: 700;
+			    color: #333;
+			}
+			span{
+			    float: right;
+			    color: #777;
+			    font-size: 1.2rem;
+			    max-width: 70%;
+				position: relative;
+				padding-right: 2rem;
+				&:after{
+					font-family: "iconfont";
+					content:"\e60c";
+				    color: #cbc9cc;
+				    position: absolute;
+				    right: .85rem;
+				    top: 50%;
+				    transform:translateY(-50%);
+				}
+			}
+		}
+	}
+}
+.hot{
+	.hot-title{
+	    padding: 1rem .85rem;
+		img{
+		    float: left;
+		    width: 18px;
+		    height: 18px;
+		    margin-right: 5px;
+		}
+		h3{
+			float: left;
+		    font-size: 1.4rem;
+		    font-weight: 700;
+		    color: #333;
+		}
+	}
+	.hot-content{
+		background: #DACEEB;
+	}
+}

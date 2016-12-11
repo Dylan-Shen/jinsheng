@@ -1,0 +1,22 @@
+<!-- 排序浏览页 list-content-1 单行  list-content 二列 -->
+<ul class="list-content-1 sort-list clear">
+	## for(var i = 0 ; i < message.length ; i ++ ){ ##
+	<li>
+		<a href={{message[i].url}} class="clear"> 
+			<div class="goods-image">
+				<img class="lazy" alt="10rem*10rem" width="10rem" height="10rem" data-original={{message[i].src}} />
+			</div>  
+			<div class="goods-info"> 
+				<p class="goods-title">{{message[i].name}}</p>  
+				<p class="goods-price">￥{{message[i].price}}  
+					<del>
+						<i>原价{{message[i].ori}}</i>
+					</del>  
+				</p> 
+				<p class="goods-sale">销量：{{message[i].sales}}件</p> 
+				<i class="goods-buy icon">&#xe613;</i> 
+			</div>  
+		</a>
+	</li>
+	## } ##
+</ul>
